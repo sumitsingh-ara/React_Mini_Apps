@@ -1,0 +1,96 @@
+.mainDiv{
+   margin-top:5vh;
+   display:grid;
+   grid-template-columns: 60% 30%;
+   justify-content: space-evenly;
+}
+@media screen and (max-width:1000px){
+    *{
+        font-size:1rem;
+    }
+    .total{
+        width: 100% !important;
+    }
+   
+}
+@media screen and (min-width:800px){
+    .input{
+        width: 400px !important; ;
+    };
+   
+}
+@media screen and (max-width:700px){
+    *{
+        font-size:4vw;
+    }
+    .numberMargin{
+        margin-top:20px;
+    }
+    .mainDiv{
+        display: grid;
+        grid-template-columns:100%
+    }
+    .total{
+        width: 100% !important;
+    }
+    .mainDivCaraousel{
+        min-width: 100% !important;
+        min-height: 80vh !important;
+    }
+    .mainDivCaraousel img{
+        margin-top:5vh;
+        min-width: 100% !important;
+    }
+    .carousel-control-prev,
+.carousel-control-next{
+    margin-top: 5vh;
+}
+   
+}
+.red{
+color: red;
+}
+.input{
+    width:60vw;
+    margin: auto;
+    display: flex;
+}
+#hide{
+    min-height:57px;
+}
+.total{
+    display: grid;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    grid-template-columns:70% 10%;
+    text-align: left;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    height: 50px;
+    width: 50px;
+    outline: white;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.carousel-control-prev-icon { 
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
+    width: 30px;
+    height: 48px;
+}
+.carousel-control-next-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+}
+.mainDivCaraousel{
+    width:80%;
+    margin: auto;
+}
+.mainDivCaraousel img{
+    width: 100%;
+}
